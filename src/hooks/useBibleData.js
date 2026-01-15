@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BIBLE_META } from '../data/BIBLE_META';
+import { BIBLE_META } from '../data/bible-meta.js';
 import nasb2020Data from '../data/nasb2020.json';
 
 export const useBibleData = () => {
